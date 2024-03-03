@@ -4,6 +4,10 @@ import { Inter } from "next/font/google";
 import Navbar from "../components/Navbar";
 import Navbar2 from "../components/Navebar2";
 
+// import { HeroPage } from "../components/Hero";
+// import About from "./about/page";
+// import Contact from "./contact/page";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -21,6 +25,9 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar2 className="" />
         <Navbar />
+        {/* <HeroPage />
+        <About />
+        <Contact /> */}
         {children}
       </body>
     </html>
