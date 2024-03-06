@@ -37,7 +37,7 @@ export default function Navbar() {
   ];
   return (
     <>
-      <div className="relative  w-full sm:hidden">
+      <div className="relative  w-full ">
         <FloatingNav navItems={navItems} className="bg-black" />
       </div>
     </>
