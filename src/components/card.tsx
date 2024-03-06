@@ -7,7 +7,7 @@ import { TypewriterDlink } from "./writerOrDlink";
 
 export function MyCard() {
   return (
-    <div className="mt-36 px-4">
+    <div className="mt-6 px-4">
       <BackgroundGradient className="rounded-[22px] max-w-sm p-5 sm:p-10 bg-white dark:bg-zinc-900 ">
         <Image
           src={""}

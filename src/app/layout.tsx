@@ -2,7 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Navbar from "../components/Navbar";
-import Navbar2 from "../components/Navebar2";
+import NavPage from "../components/pageNav/nav";
 
 // import { HeroPage } from "../components/Hero";
 // import About from "./about/page";
@@ -23,8 +23,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar2 className="" />
         <Navbar />
+        <NavPage />
         {/* <HeroPage />
         <About />
         <Contact /> */}

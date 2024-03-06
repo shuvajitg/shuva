@@ -1,5 +1,5 @@
-export default function Project(){
-    return(<>
-    
-    </>)
+"use client";
+
+export default function Project() {
+  return <></>;
 }
