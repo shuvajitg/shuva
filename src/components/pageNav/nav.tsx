@@ -33,19 +33,22 @@ export default function Navbar() {
 
   return (
     <main>
-      <nav className="flex justify-between p-6 items-center py-6 bg-slate-300 mt-1 mb-1 rounded-full">
+      <nav className="flex justify-between p-4 items-center py-4 bg-slate-300 mt-1 mb-1 rounded-full">
         <div className="flex items-center gap-8">
           <section className="flex items-center gap-4">
             {/* logo */}
             <Link
               href={"/"}
-              className="sm:text-2xl lg:text-4xl text-xl font-semibold uppercase font-mono"
+              className="sm:text-2xl lg:text-4xl text-xl font-semibold uppercase font-mono text-slate-50  shadow-2xl"
             >
               <span className="text-orange-600">shuva</span>jit
             </Link>
           </section>
         </div>
-        <BsMoonStarsFill className="sm:text-2xl lg:text-4xl text-xl font-semibold uppercase font-mono cursor-pointer text-slate-50" />
+        <BsMoonStarsFill
+          id="darkmood "
+          className="sm:text-2xl lg:text-4xl text-xl font-semibold uppercase font-mono cursor-pointer text-slate-50"
+        />
       </nav>
       <hr className=" " />
     </main>
