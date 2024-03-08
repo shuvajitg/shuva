@@ -69,9 +69,9 @@ export default function About() {
           <h1 className="relative text-lg md:text-7xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold underline underline-offset-2">
             About Me
           </h1>
-          <div className="p-10">
-            <StickyScroll content={content} />
-          </div>
+        </div>
+        <div className="p-10">
+          <StickyScroll content={content} />
         </div>
       </div>
     </>
